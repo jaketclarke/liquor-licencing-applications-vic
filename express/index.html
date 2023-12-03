@@ -60,7 +60,7 @@
 	}
 
 	/* global campus, bicycleRental, freeBus, coorsField */
-	const bicycleRentalLayer = L.geoJSON([bicycleRental, campus], {
+	const bicycleRentalLayer = L.geoJSON(bicycleRental, {
 
 		style(feature) {
 			return feature.properties && feature.properties.style;
@@ -80,27 +80,6 @@
 		}
 	}).addTo(map);
 
-	const freeBusLayer = L.geoJSON(freeBus, {
-
-		filter(feature, layer) {
-			if (feature.properties) {
-				// If the property "underConstruction" exists and is true, return false (don't render features under construction)
-				return feature.properties.underConstruction !== undefined ? !feature.properties.underConstruction : true;
-			}
-			return false;
-		},
-
-		onEachFeature
-	}).addTo(map);
-
-	const coorsLayer = L.geoJSON(coorsField, {
-
-		pointToLayer(feature, latlng) {
-			return L.marker(latlng, {icon: baseballIcon});
-		},
-
-		onEachFeature
-	}).addTo(map);
 
 </script>
 
