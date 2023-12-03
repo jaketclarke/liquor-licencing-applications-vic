@@ -89,6 +89,17 @@
 			layer.bindPopup(popupContent);
 		}
 
+		function pick_colour(application_type) {
+
+			colour = '#f0f0f0'
+			
+			if (application_type == 'On-Premises Licence') {
+				colour = '#feb24c'
+			}
+
+			return colour
+
+		}
 		/* global campus, bicycleRental, freeBus, coorsField */
 		const bicycleRentalLayer = L.geoJSON(lla, {
 
@@ -101,9 +112,9 @@
 			pointToLayer(feature, latlng) {
 				return L.circleMarker(latlng, {
 					radius: 8,
-					fillColor: '#ff7800',
+					fillColor: pick_colour(feature.properties.application_type),
 					color: '#000',
-					weight: 1,
+					weight: 0.5,
 					opacity: 1,
 					fillOpacity: 0.8
 				});
