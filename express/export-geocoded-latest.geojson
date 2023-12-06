@@ -3150,32 +3150,6 @@
         {
             "type": "Feature",
             "properties": {
-                "Application ID": "74104A01",
-                "Application Name": "CHAKO CHAKO, HAWTHORN 3122",
-                "Application Received Date": "19/06/2023",
-                "Premises Address": "SHOP 3 & 4, 625 GLENFERRIE ROAD, HAWTHORN 3122",
-                "Application Type": "Restaurant and cafe Licence for a Company",
-                "Public Notice Display Period": "27/10/2023 - 24/11/2023",
-                "Applicant": "W & H INVESTMENT PTY LTD",
-                "Licence Category": NaN,
-                "Licence Number": NaN,
-                "Star Rating": NaN,
-                "Demerit Points": NaN,
-                "state": "Queensland",
-                "suburb": null,
-                "postcode": "4625"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.61051,
-                    -25.61955
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "Application ID": "30142A07",
                 "Application Name": "HAWTHORN MALVERN HOCKEY CENTRE, HAWTHORN 3122",
                 "Application Received Date": "11/05/2023",
@@ -4860,32 +4834,6 @@
                 "coordinates": [
                     143.80974,
                     -37.04396
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Application ID": "74622A01",
-                "Application Name": "HARRY BROWN LIQUOR STORE, MARYBOROUGH 3465",
-                "Application Received Date": "16/08/2023",
-                "Premises Address": "2-3/111 BURKE RD, MARYBOROUGH 3465",
-                "Application Type": "Packaged Liquor Licence",
-                "Public Notice Display Period": "21/10/2023 - 18/11/2023",
-                "Applicant": "GURPREET ENTERPRISES PTY LTD",
-                "Licence Category": NaN,
-                "Licence Number": NaN,
-                "Star Rating": NaN,
-                "Demerit Points": NaN,
-                "state": "Queensland",
-                "suburb": null,
-                "postcode": "4625"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    151.62003,
-                    -25.62931
                 ]
             }
         },
@@ -9878,32 +9826,6 @@
                 "coordinates": [
                     144.25958,
                     -37.88391
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Application ID": "33823A04",
-                "Application Name": "WALLINGTON CRICKET CLUB, WALLINGTON 3221",
-                "Application Received Date": "31/05/2022",
-                "Premises Address": "WALLINGTON RECREATION RESERVE, WALLINGTON ROAD, WALLINGTON 3221",
-                "Application Type": "Variation of Licence",
-                "Public Notice Display Period": "04/06/2022 - 02/07/2022",
-                "Applicant": "WALLINGTON CRICKET CLUB INC",
-                "Licence Category": "Restricted Club Licence",
-                "Licence Number": 31451822.0,
-                "Star Rating": "(5 Stars)",
-                "Demerit Points": "0 Points",
-                "state": "South Australia",
-                "suburb": null,
-                "postcode": "5259"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    139.25166,
-                    -35.32083
                 ]
             }
         },

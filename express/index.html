@@ -58,7 +58,7 @@
 				</tr>
 				<tr>
 					<td>Applicant</td>
-					<td>${feature.properties.Applicant}</td>
+					<td>${feature.properties.applicant}</td>
 				</tr>
 				<tr>
 					<td>Application ID</td>
@@ -92,7 +92,7 @@
 		function pick_colour(application_type) {
 
 			colour = '#f0f0f0'
-			
+
 			if (application_type == 'On-Premises Licence') {
 				colour = '#feb24c'
 			}
@@ -101,7 +101,7 @@
 
 		}
 		/* global campus, bicycleRental, freeBus, coorsField */
-		const bicycleRentalLayer = L.geoJSON(lla, {
+		const applications = L.geoJSON(lla, {
 
 			style(feature) {
 				return feature.properties && feature.properties.style;
