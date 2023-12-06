@@ -89,12 +89,16 @@
 			layer.bindPopup(popupContent);
 		}
 
-		function pick_colour(application_type) {
+		function pick_colour(licence_category) {
 
 			colour = '#f0f0f0'
 
-			if (application_type == 'On-Premises Licence') {
+			if (licence_category == 'On-Premises Licence') {
 				colour = '#feb24c'
+			}
+
+			if (licence_category.includes('Restaurant and cafe Licence')) {
+				colour = '#e0f3db'
 			}
 
 			return colour
@@ -112,7 +116,7 @@
 			pointToLayer(feature, latlng) {
 				return L.circleMarker(latlng, {
 					radius: 8,
-					fillColor: pick_colour(feature.properties.application_type),
+					fillColor: pick_colour(feature.properties.licence_category),
 					color: '#000',
 					weight: 0.5,
 					opacity: 1,
